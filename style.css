@@ -1,39 +1,52 @@
 #background {
-    display: block;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        overflow: hidden;
-        z-index: -100;
-        width:80%;
-        margin: 0 auto;
-
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  width:80%;
+  margin: 0 auto;
 }
+
+.navbar {
+  background-color: #000000;
+}
+
+#wavey {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler {
+  border-color: rgb(255,102,203);
+} 
+
 .container h1 {
   color: white;
 }
+
 .jumbotron{
-    position: relative;
-    z-index:-101;
-  }
+  position: relative;
+  z-index:-101;
+}
 
 .fa-rocket, .fa-code {
-margin: 50px;
+  margin: 50px;
 }
 
 .fa-bitcoin {
-    margin: 50px 50px 50px 65px;
+  margin: 50px 50px 50px 65px;
 }
 
-  .footer {
-    margin-top: 100px;
-    background-color: blue;
-    width: 100%;
-    height: 50px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    text-align: center;
-    color: black 
-  }  
+.footer {
+  margin-top: 100px;
+  background-color: blue;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: black 
+}  

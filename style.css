@@ -1,3 +1,42 @@
+/* Header
+--------------------------------------*/
+.navbar {
+  background-color: #000000;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+#wavey {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-link {
+  padding-top: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #94d0d8;
+  font-size: 20px;
+}
+
+.ml-auto, .mx-auto {
+   margin-left: 0!important; 
+}
+
+.navbar-nav {
+  margin-top: 10px;
+  margin-left: 82px;
+}
+
+.navbar-collapse {
+  margin-top: -15px;
+  margin-left: 82px;
+}
+
+
+/* Jumbotron
+--------------------------------------*/
+
 #background {
   display: block;
   top: 0;
@@ -10,17 +49,7 @@
   margin: 0 auto;
 }
 
-.navbar {
-  background-color: #000000;
-}
 
-#wavey {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.custom-toggler .navbar-toggler {
-  border-color: rgb(255,102,203);
-} 
 
 .container h1 {
   color: white;
@@ -39,14 +68,25 @@
   margin: 50px 50px 50px 65px;
 }
 
-.footer {
-  margin-top: 100px;
-  background-color: blue;
-  width: 100%;
-  height: 50px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  text-align: center;
-  color: black 
-}  
+/* Footer
+--------------------------------------*/
+  .footer {
+    margin-top: 100px;
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: black 
+  }  
+
+  /* Media Queries
+--------------------------------------*/
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+  margin-left: 0;
+  margin-top: 10px;
+  }
+}

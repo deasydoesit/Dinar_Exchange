@@ -36,10 +36,24 @@ button:focus {
   color: #c5e6ea;
 }
 
+/* Parallax
+--------------------------------------*/
+.parallax {
+  /* The image used */
+  background-image: url("parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* Jumbotron
 --------------------------------------*/
-
 #background {
   display: block;
   top: 0;

@@ -1,9 +1,27 @@
+/* Global Styles
+--------------------------------------*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* Header Styles
 --------------------------------------*/
+img.resize {
+  width: 150px; 
+  height: auto;
+}
+
+.navbar-bg-color {
+  background-color: #080808;
+  padding: 0.2rem;
+}
+
 .navbar {
-  background-color: #000000;
   padding: 0;
   justify-content: flex-start;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
 }
 
 #wavey {
@@ -15,12 +33,12 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  padding-top: 5px;
+  padding-top: 0.5rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: #87cbd3;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .ml-auto, .mx-auto {
@@ -99,9 +117,21 @@ button:focus {
 
   /* Media Queries
 --------------------------------------*/
-@media (max-width: 576px) {
+@media  only screen and (max-width: 1180px) {
+  img.resize {
+    margin-left: 1.6rem;
+  }
+}
+
+@media  only screen and (max-width: 576px) {
   .navbar-collapse {
     margin-top: -15px;
     margin-left: 82px;
+  }
+  img.resize {
+    margin-left: -0.6rem;
+  }
+  button.navbar-toggler {
+    margin-left: 1rem;
   }
 }

@@ -9,13 +9,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Dinar</title>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <title>Dinar Exchange</title>
 </head>
 <body>
     <div class="navbar-bg-color">
         <nav class="navbar navbar-expand-sm navbar-light">
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span id="wavey" class="navbar-toggler-icon"></span>
+                <span id="icon" class="navbar-toggler-icon"></span>
             </button>
             <img class="resize" src="assets/images/logo.png" width="225" height="90" alt="Dinar Branding">
             <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -30,8 +31,11 @@
             </div>
         </nav>
     </div>
-    <h1 class="parallax-heading">The People's Crytpocurrency Exchange of South Africa</h1>
-    <div class="parallax"></div>                       
+    <div class="parallax"></div>
+    <div id="trigger-heading" class="event-cue"></div>
+    <div class="center-parallax-h1" data-aos="zoom-in" data-aos-anchor="#trigger-heading">
+        <h1 class="parallax-heading" data-aos="zoom-in" data-aos-anchor="#trigger-heading">The People's Crytpocurrency Exchange of South Africa</h1>                       
+    </div>
     <div class="jumbotron">
         <video autoplay loop muted poster="screenshot.jpg" id="background">
             <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
@@ -39,7 +43,6 @@
         <hr class="my-4">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
     </div>
-
     <div class="container" id="about">
         <div class="row">
             <div class="col-md-4">
@@ -78,10 +81,10 @@
             </div>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>AOS.init({duration: 500, disable: 'mobile '});</script>
 </body>
 </html>

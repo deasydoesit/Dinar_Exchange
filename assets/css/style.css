@@ -341,4 +341,7 @@ footer {
   #mailchimp input[type="submit"] {
     width: 45%;
   }
+  #mc-para {
+    width: 95%;
+  }
 }

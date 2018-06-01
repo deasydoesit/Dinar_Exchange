@@ -59,7 +59,7 @@ button:focus {
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: #49b0bc;
+  color: #6495ED;
 }
 
 .broken {
@@ -173,14 +173,28 @@ button:focus {
 center {
   width: 61%;
   margin: 200px auto;
-  border: 2px solid black;
+  border: 2px solid lightgray;
   border-radius: 25px;
+  background-color: #FFFAFA;
 
 }
 
+#wrapper {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/cheap_diagonal_fabric.png);
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/cheap_diagonal_fabric.png);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  padding-top: 40px;
+  padding-bottom: 110px;
+  overflow: auto;
+}
+
 #mailchimp {
-	background: #f8f8f8;
-	color: #3D6392;
 	padding: 20px 15px;
 }
 
@@ -213,12 +227,16 @@ center {
   -webkit-border-radius: 20px;
 }
 
+#mailchimp input:focus  {
+  outline: none;
+}
+
 #mailchimp input.email { 
-  background: #fff; 
+  background: #cfdef9; 
 }
 
 #mailchimp input.name { 
-  background: #fff;
+  background: #cfdef9;
   display: inherit;
 }
 

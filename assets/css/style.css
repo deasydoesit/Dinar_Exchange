@@ -335,4 +335,10 @@ footer {
   center {
     width: 90%;
   }
+  #mailchimp input {
+    width: 90%;
+  }
+  #mailchimp input[type="submit"] {
+    width: 45%;
+  }
 }

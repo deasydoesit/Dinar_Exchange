@@ -170,14 +170,37 @@ button:focus {
 
 /* Mailchimp Styles
 --------------------------------------*/
+center {
+  width: 61%;
+  margin: 200px auto;
+  border: 2px solid black;
+  border-radius: 25px;
+
+}
+
 #mailchimp {
 	background: #f8f8f8;
 	color: #3D6392;
 	padding: 20px 15px;
 }
 
+#mc-header {
+  color: #6495ED;
+  font-family: "bebas_neueregular", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#mc-para {
+  color: #6495ED;
+  font-family: "roboto", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
 #mailchimp input {
-    border: medium none;
+  border: medium none;
   color: gray;
   font-family: times new roman;
   font-size: 16px;
@@ -191,24 +214,29 @@ button:focus {
 }
 
 #mailchimp input.email { 
-  background: #fff 
+  background: #fff; 
 }
 
 #mailchimp input.name { 
-  background: #fff
+  background: #fff;
+  display: inherit;
 }
 
 #mailchimp input[type="submit"] {
-  background: #115B87;
+  font-family: "roboto", sans-serif;
+  background: #6495ED;
   color: #fff;
   cursor: pointer;
   font-size: 15px;
   width: 35%;
-  padding: 8px 0;
+  padding: 15px 0;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #mailchimp input[type="submit"]:hover { 
-  color: #F2C94C 
+  color: #080808; 
 }
 
 /* Footer

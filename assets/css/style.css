@@ -132,6 +132,7 @@ button:focus {
   /* width: 18rem;  */
   margin: 5rem auto;
   background-color: #FFFAFA;
+  border-radius: 1rem;
 }
 
 .fa-7x {
@@ -139,7 +140,7 @@ button:focus {
 }
 
 .card-img-top {
-  margin-top: 1.75rem;
+  margin-top: 0.75rem;
 }
 
 .card-title {
@@ -147,10 +148,24 @@ button:focus {
 }
 
 .atm-img {
-  width: 50%;
+  width: 10em;
   display: block;
-  margin: 1.75rem auto auto auto;
-  margin-top: 1.75rem;
+  margin: 0.75rem auto auto auto;
+}
+
+.card-title-style {
+  font-family: "bebas_neueregular", sans-serif;
+  font-size: 4rem;
+  color: #292d32;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.card-text {
+  font-family: "roboto", sans-serif;
+  font-size: 1.2rem;
+  color: #383e45;
+  line-height: 22px;
 }
 
 /* Footer
@@ -191,5 +206,36 @@ button:focus {
 @media only screen and (max-device-width: 1366px) {
   .parallax {
       background-attachment: scroll;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+      max-width: 540px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+      max-width: 1050px;
+  }
+  .h-80 {
+    height: 80%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+      max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .card {
+    margin-top: 4rem !important;
+    margin-bottom: 0;
+  }
+  .last {
+    margin-bottom: 4rem !important;
   }
 }
